@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* reset */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+.wrap {width: 100%; position: relative;}
+.inner {width: 68%; margin: 30px auto;}
+.inner .topBox ul {display: flex; justify-content: right; font-size: 15px;}
+.inner .topBox ul li p { margin: 10px; color: #999;}
+.inner .topBox ul li span {color: #000; font-weight: 500;}
+.inner .topBox ul li:last-child {margin-right:0;}
+
+
+.inner .midBox {text-align: center;}
+.inner .midBox .box{display: flex;justify-content:center;color: #fff; margin-top: 40px; font-size: 14px; font-weight: 300;}
+.inner .midBox .box p {padding: 0 6px; #ddd; display: block; margin-right: 4px; border-radius: 4px;}
+
+.inner .midBox .box .orange {background: rgb(255, 145, 0);}
+.inner .midBox .box .red {background: red;}
+.inner .midBox .box .purple {background: rgb(134, 42, 255);}
+.inner .midBox .box .black {background: #000;}
+.inner .midBox .box .yellow {background: rgb(238, 194, 0);}
+
+
+.inner .midBox ul {display: flex; justify-content:space-between;padding: 13px;}
+.inner .midBox li {position: relative; width: 31.8%; border: 1px solid #ddd; border-radius: 8px;}
+.inner .midBox li img {margin-top: 20px;}
+.inner .midBox li h2 {font-size: 19px; font-weight: 500; margin: 12px 0 40px 0 ;}
+.inner .midBox li h2 b {font-size: 14px; border: 1px solid#000; padding:  0 3px; border-radius: 4px; color: #333; margin-right: 7px; letter-spacing: -1px;}
+.inner .midBox li .txt {display: inline-block; line-height: 25px; font-size: 15px; color: #666;}
+.inner .midBox li .line { width: 80% ; height: 1px; background-color: #ddd; margin: 0 auto; margin-top: 40px;}
+
+.inner .midBox li h1 {font-size: 23px; margin: 34px 0; color: rgb(71, 0, 163); }
+.inner .midBox li h1 span {font-size: 16px; font-weight: 400; margin-right: 10px; color: #000;}
+
+
+
+.con1 .btn {text-align: center; position: absolute; right: 72px; top: 590px;}
+.con1 .btn li {margin-bottom: 12px;}
+.con1 .btn li .survey {background: rgb(240, 7, 170); display: inline-block;width: 55px; height: 55px;border-radius: 50%;color: #fff; padding-top: 7px;}
+.con1 .btn li .survey span {font-size: 18px;}
+.con1 .btn li .survey p {font-size: 12px;}
+.con1 .btn li .chat {background: rgb(106, 0, 155); display: inline-block;width: 55px; height: 55px;border-radius: 50%;color: #fff; padding-top: 9px;font-size: 23px;}
+.con1 .btn li .top {background:#eee; display: inline-block;width: 55px; height: 55px;border-radius: 50%; padding-top: 18px; font-size: 13px;}
+

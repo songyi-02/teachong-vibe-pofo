@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* reset */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+
+/*layout*/
+body {font-family: 'Noto Sans KR', sans-serif;}
+.wrap {background: #f3f2f2; padding: 95px 0;}
+.inner {width: 68%; margin: 0 auto; position: relative}
+
+/*topBox*/
+.inner .topBox {display: flex; justify-content: space-between;}
+.inner .topBox ul {width: 55%; display: flex;justify-content: space-between;}
+.inner .topBox ul li {font-size: 15px; margin-bottom: 70px; font-weight: 500; }
+.inner .topBox ul li span {padding-bottom: 12px; border-bottom: 2px solid rgb(96, 32, 139); color: rgb(96, 32, 139); }
+.inner .topBox p {font-weight: 600; color: #666; padding-right: 25px;}
+.inner .topBox p span {font-size: 13px;font-weight: bold; color: #666;}
+
+/* midBox*/
+.inner .midBox {display: flex; justify-content: space-between; margin-right: 50px;}
+.inner .midBox li {width: 32.5%; background: #fff; padding: 35px 40px; border-radius: 15px;}
+.inner .midBox li h2 {font-size: 23px; font-weight: 600; margin-bottom: 40px;}
+.inner .midBox li h1 {font-size: 34px; margin-bottom: 8px;}
+.inner .midBox li p {color: #888;font-weight: 400; line-height:24px;}
+.inner .midBox li p span {color: #000; font-weight: 500;}
+.inner .midBox li .txt {margin: 10px 0;}
+.inner .midBox li .puple {height: 95px; background: #f5efff; padding: 15px 20px; margin: 20px 0 25px 0;border-radius: 5px;}
+.inner .midBox li .price {display: flex; justify-content: space-between;}
+.inner .midBox li .price h1 {color: rgb(96, 32, 139);}
+.inner .midBox li .price span {font-size: 18px; color: #888; text-decoration: line-through; line-height: ;}
+
+
+.inner .midBox li a {background: rgb(96, 32, 139); color: #fff; border-radius: 8px; padding: 11px 38px; font-size: 16px; font-weight: 500;}
+.inner .midBox li:first-child {background: #f3f2f2; color: #000; padding: 0; }
+
+
+.inner .midBox .container {display: flex; justify-content: space-between; margin-bottom: 80px;}
+.inner .midBox .container .txt {width: 50%;}
+.inner .midBox .container .txt h2 {font-size: 33px; font-weight: 700; letter-spacing: -2px; line-height: 1.2; margin-bottom: 20px;}
+.inner .midBox .container .txt p {font-size: 18px; font-weight: 500; color: #555; line-height: 1.5; letter-spacing: -1px;}
+.inner .midBox .container p {width: 100%;}
+.inner .midBox .container .img {margin-right: 50px; width: 40%;}
+.inner .midBox .container .img img {width: 100%;}
+
+/*btn*/
+.inner .btn {position: absolute; right: 26px; top: 55%; }
+.inner .btn span { background: #0000009c; border-radius: 50%; font-size: 25px; color: #fff; padding: 11px; font-weight: 500;}
+
+

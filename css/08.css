@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* reset */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+body {font-size: 15px;}
+.inner {width: 77%; margin: 60px auto; text-align: center; letter-spacing: 2px; }
+.inner h2 {font-size: 28px;}
+.inner .tit {color: #666; margin: 15px 0;}
+.inner .txt {line-height: 1.6; letter-spacing: 1px; margin-bottom: 40px;}
+.inner .img {height: fit-content;position: relative;}
+.inner .img img {width: 100%;}
+.inner .img .textBox {text-align: left; position: absolute; right: 0; top: 0; background: rgba(0, 0, 0, 0.664);width: 28%; height: 100%; padding-left: 61px; padding-top: 207px;}
+.inner .img .textBox h2 {color: goldenrod; font-weight: 500; margin-bottom: 40px;}
+.inner .img .textBox p {color: #fff; line-height: 2; margin-bottom: 50px;}
+.inner .img .textBox a {color: #fff; border: 1px solid #fff; 
+    padding: 10px 40px;}
+
+
+
+.con1 {position: relative;}
+.con1 .btn {position: absolute; right: 72px; top: 590px; text-align: center; margin-top: 5px;}
+.con1 .btn li {margin-bottom: 12px; color: goldenrod;box-shadow: 0px 0px 15px rgba(0,0,0,0.1 ); width: 55px; height: 55px;border-radius: 50%;}
+
+
+
+

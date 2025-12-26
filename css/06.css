@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* reset */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+
+
+body {font-size: 13px;}
+.wrap {background: #f5ebd9; padding: 40px 0;}
+.inner {width: 85%; margin: 28px auto;}
+.inner .tit {text-align: center; font-size: 32px; font-weight: 300; letter-spacing: 5px; margin-bottom: 40px;}
+
+.inner .topBox {width: 60%; margin: 0 auto; display: flex; justify-content: center; align-items: center; padding: 16px 0; font-size: 15px;}
+.inner .topBox li {font-size: 15px; color: #777;font-weight: 400; text-align: center; position: relative; padding-bottom: 8px; cursor: pointer; border-left: 1px solid rgba(0,0,0,0.3); padding: 0 25px; margin-bottom: 20px;}
+
+.inner .topBox li:nth-child(1){color: #000; font-weight: 600; border-left: 0px solid  rgba(0,0,0,0.3);}
+.inner .topBox li:nth-child(1)::after { content: ''; width: 78px; height: 2px; background: #000; position: absolute;bottom: -13px; left: 2px;}
+
+
+
+.inner .midBox {display: flex; justify-content: space-between;}
+.inner .midBox li {width: 19%;padding-top: 10px; flex-direction: column;}
+.inner .midBox li:nth-child(1) {background: #d1c4a4;}
+.inner .midBox li:nth-child(2) {background: #b9b6a2;}
+.inner .midBox li:nth-child(3) {background: #d1c4a4;}
+.inner .midBox li:nth-child(4) {background: #b9b6a2;}
+.inner .midBox li:nth-child(5) {background: #d1c4a4;}
+.inner .midBox li .img {display: flex; justify-content: center; align-items: center;}
+.inner .midBox li:nth-child(1) .img { padding: 54px 0;}
+.inner .midBox li:nth-child(2) .img { padding: 56px 0;}
+.inner .midBox li:nth-child(3) .img { padding: 65px 0;}
+.inner .midBox li:nth-child(4) .img { padding: 71px 0;}
+.inner .midBox li:nth-child(5) .img { padding: 65px 0;}
+
+
+.inner .midBox li .text {width: 100%; background: #fff; padding: 30PX; 
+margin-top: auto; box-sizing: border-box;}
+.inner .midBox li .text p {color: #666; margin-bottom: 3px;}
+.inner .midBox li .text h2 {font-size: 15px; font-weight: 400; margin-bottom: 10px;}
+.inner .midBox li .text .price {width: 48%; display: flex; font-size: 16px; justify-content: space-between;s}
+.inner .midBox li .text span {font-weight: 300; text-decoration-line: line-through;}
+.inner .midBox li .text h3 {font-weight: 600;} 
+
+.left {position: absolute; left: 100px; top: 48%; font-size: 30px;}
+.right {position: absolute; right: 100px; top: 48%;font-size: 30px;}
+.btn {display: flex; justify-content: center; align-items: center; font-size: 17px; padding: 17px 40px; background: #555; width: 200px; margin: 0 auto; font-weight: 500; color: #fff;}
+
+
+
+
+
+
+.inner .midBox .box {display: flex; color: #fff; margin-left: 10px;}
+.inner .midBox .box .BEST {background: gold; padding: 0 5px; margin-right: 3px;}
+.inner .midBox .box .SALE {background: #666; padding: 0 5px;}
